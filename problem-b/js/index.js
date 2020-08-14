@@ -19,6 +19,7 @@ function addFour(arg) {
 
   let twelveString = addFour("8");
   console.log(twelveString);
+
 /* Works numerically for numbers ,if string used then 4 is appended.
 
 /* Define a function `compoundInterest()` that takes three parameters: 
@@ -33,7 +34,7 @@ function addFour(arg) {
      http://www.mathwarehouse.com/calculators/continuous-compound-interest-calculator.php
 */
 
-function compountInterest(balance, interest, years) {
+function compoundInterest(balance, interest, years) {
   return balance * Math.exp(interest * years);
 
 }
@@ -66,8 +67,6 @@ function compountInterest(balance, interest, years) {
      return toReturn;
    }
 
-   console.log(fizzBuzz(20));
-
 /* Define a function `getLetterFrequencies()` that takes in a single string as 
    an argument. The function should *return* an Object whose keys are characters
    (letters) and whose values are the number of times that character appears in
@@ -95,8 +94,6 @@ function getLetterFrequencies(string) {
   return toReturn;
 }
 
-console.log(getLetterFrequencies("Mississippi"));
-
 /* Create a variable `deck` that represents a deck of modern playing cards
    (https://en.wikipedia.org/wiki/Playing_card). This variable should be an
    *array* of 52 elements, each of which is an Object with properties:
@@ -121,7 +118,6 @@ console.log(getLetterFrequencies("Mississippi"));
         });
       }
     }
-    console.log(deck);
 
 
 //You can test the below functions by creating e.g., a `pokerHand` array that 
